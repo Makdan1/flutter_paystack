@@ -35,7 +35,7 @@ class _OtpWidgetState extends BaseState<OtpWidget> {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 new Image.asset('assets/images/otp.png',
-                    width: 30.0, package: 'flutter_paystack_t'),
+                    width: 30.0, package: 'flutter_paystack_tk'),
                 heightBox,
                 new Text(
                   widget.message!,
